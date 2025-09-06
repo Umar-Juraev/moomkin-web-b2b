@@ -1,0 +1,90 @@
+{
+  "loading": "Yuklanmoqda...",
+  "error": "Nimadir xato bo'ldi",
+  "login": "Kirish",
+  "logout": "Chikish",
+  "call": "Telefon qilish",
+  "route": "Yo'l tuzish",
+  "phoneNumbers": "Telefon raqamlar",
+  "socialNetworks": "Ijtimoiy tarmoqlar",
+  "weekends": "Dam olish kunlari:",
+  "weekdays": "Ish kunlari:",
+  "workTime": "Ish vaqti",
+  "addresses": "Manzillar",
+  "readmore": "Ko'proq o'qish",
+  "readless": "Yashirish",
+  "all": "Barchasi",
+  "hours": "soat",
+  "everyDay": "Har kuni",
+  "foundPlaces": "ta chegirma topildi",
+  "appliedFilters": "filtr qo'llanildi",
+  "companies": "Kompaniyalar",
+  "buttons": {
+    "submit": "Yuborish",
+    "cancel": "Bekor qilish",
+    "save": "Saqlash",
+    "delete": "O'chirish",
+    "clear": "Tozalash",
+    "edit": "Tahrirlash",
+    "close": "Yopish",
+    "seeMore": "Batafsil"
+  },
+  "forms": {
+    "required": "Bu maydon to'ldirilishi shart",
+    "email": "Iltimos, to'g'ri email kiriting",
+    "minLength": "Kamida {{min}} ta belgidan iborat bo'lishi kerak",
+    "maxLength": "Ko'pi bilan {{max}} ta belgidan oshmasligi kerak"
+  },
+  "messages": {
+    "success": "Amal muvaffaqiyatli bajarildi",
+    "confirmDelete": "Bu elementni o'chirishga ishonchingiz komilmi?",
+    "itemCount": "{{count}} ta element",
+    "itemCount_plural": "{{count}} ta element"
+  },
+  "titles": {
+    "trends": "Trendlar bo'yicha chegirmalar",
+    "hot": "Olov chegirmalar"
+  },
+  "pages": {
+    "home": "Asosiy sahifa",
+    "search": "Qidiruv",
+    "favorites": "Sevimlilar"
+  },
+  "header": {
+    "location": "Toshkent shahri",
+    "aboutProgram": "Dastur haqida",
+    "saved": "Saqlanganlar",
+    "settings": "Sozlamalar"
+  },
+  "placeholder": {
+    "search": "Qaynoq chegirmalarni qidiring"
+  },
+  "settings": {
+    "title": "Sozlamalar",
+    "general": "Asosiy",
+    "support": "Qo'llab-quvvatlash",
+    "appLang": "Ilova tili",
+    "appLangDesc": "Hisobingiz va barcha bog'liq ma'lumotlaringiz butunlay o'chiriladi. Bu amalni bekor qilib bo'lmaydi.",
+    "phoneDesc": "Tijoriy takliflar yuzasidan aloqa uchun.",
+    "tgDesc": "Tijoriy takliflar yuzasidan murojaat uchun.",
+    "call": "Qo‘ng‘iroq qilish",
+    "write": "Yozish"
+  },
+  "category": {
+    "trend": "Trendda",
+    "newest": "Eng yangi",
+    "favorites": "Sevimlilar",
+    "nearest": "Eng yaqin"
+  },
+  "footer": {
+    "phone.desc": "Savollar va takliflarga javob berish uchun ishonch telefon raqami. Qo‘ng‘iroq qilish bepul.",
+    "phone.tg": "Botda mavjud bo‘lgan imkoniyatlar haqida qisqacha izoh yozib ketish kerak.",
+    "faq": "Barcha huquqlar himoyalangan",
+    "appDesc": "Telefoningiz kamerasi orqali QR kodni skanerlab mobil ilovani yuklab oling"
+  },
+  "search": {
+    "title": "Qidirish",
+    "moreFigure": "Qidirish uchun kamida '{{count}}' ta belgi kiriting",
+    "noResult":"Ma'lumot topilmadi"
+  }
+}
