@@ -51,11 +51,55 @@
     "search": "Search",
     "favorites": "Favorites"
   },
+  "sections": {
+    "banner": {
+      "title": "Expand your trading opportunities with us",
+      "description": "A digital platform that quickly and effectively delivers your company's discounts and promotions to a wide audience.",
+      "button.partner": "Partnership",
+      "button.platform": "View platform"
+    },
+    "about": {
+      "name": "About Moomkin",
+      "title": "An innovative platform connecting businesses and users",
+      "card.chip": "Easy and profitable",
+      "card.chip.desc": "Moomkin helps people easily find products at great prices",
+      "card.opportunity": "New opportunities for your business",
+      "card.opportunity.desc": "Moomkin helps entrepreneurs find customers and increase revenue",
+      "card.growth": "Effective growth path",
+      "card.growth.desc": "Moomkin creates these opportunities through effective content, targeted traffic, and partnerships"
+    },
+    "workingProcess": {
+      "name": "How does Moomkin work?",
+      "title": "How are sales and partnerships organized?",
+      "description": "After signing an agreement with entrepreneurs, we prepare content for their products in an agreed format and present it to people on our platform and social networks."
+    },
+    "results": {
+      "name": "Results",
+      "title": "Real numbers confirm the successful operation of our project",
+      "card.followers": "Followers on social networks",
+      "card.webViews": "Website visitors",
+      "card.socialView": "Views on social networks",
+      "card.partners": "Partners",
+      "card.discounts": "Discounts",
+      "card.appDownloads": "App downloads"
+    },
+    "team": {
+      "name": "Team",
+      "title": "A professional and creative team jointly develops the ecosystem",
+      "card.jasurbek": "Jasurbek Hakimov",
+      "card.mirjalol": "Mirjalol Kasimov",
+      "card.abdulaziz": "Abdulaziz Hamidov",
+      "card.boburbek": "Boburbek Anvarjonov",
+      "card.umar": "Umar Djuraev",
+      "card.temur": "Temur Usmonov"
+    },
+    "partners": "Partners"
+  },
   "header": {
-    "location": "City Tashkent",
-    "aboutProgram": "About the program",
-    "saved": "Saved",
-    "settings": "Settings"
+    "aboutProject": "About Project",
+    "partners": "Partners",
+    "results": "Results",
+    "team": "Team"
   },
   "placeholder": {
     "search": "Search for hot discounts"

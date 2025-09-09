@@ -1,8 +1,15 @@
+import { About, Banner, Partners, Questions, Results, Team,WorkingProcess } from "@/section";
 
 export default function RootPage() {
   return (
     <main>
-      hello Umar Gurman
+      <Banner />
+      <About />
+      <WorkingProcess />
+      <Results />
+      <Team />
+      <Partners />
+      <Questions />
     </main>
   );
 }

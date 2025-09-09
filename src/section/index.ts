@@ -1,1 +1,7 @@
-// export { default as Category } from './Category/Category'
+export { default as Banner } from './Banner/Banner'
+export { default as About } from './About/About'
+export { default as Results } from './Results/Results'
+export { default as Team } from './Team/Team'
+export { default as Partners } from './Partners/Partners'
+export { default as Questions } from './Questions/Questions'
+export { default as WorkingProcess } from './WorkingProcess/WorkingProcess'

@@ -14,23 +14,41 @@ export default function Header() {
   const locale = params?.locale || "uz";
 
   return (
-    <div className="max-w-[1440px] mx-auto flex justify-between align-center bg-white px-10 h-20 md:h-auto md:block md:px-4">
-      <div
-        className={cn(
-          "flex items-center gap-9 w-full md:justify-between md:py-1"
-        )}
-      >
-        <Link href={`/${locale}`}>
-          <Image src={logoIcon} alt="logo" />
-        </Link>
+    <nav className="container flex justify-between items-center bg-white h-20 md:h-auto md:block md:px-4">
 
-      </div>
+      <Link href={`/${locale}`}>
+        <Image src={logoIcon} alt="logo" />
+      </Link>
+
+      <ul className="flex items-center gap-10.5 text-base font-medium">
+        <li>
+          <Link href="#aboutProject" scroll={true}>
+            {t("header.aboutProject")}
+          </Link>
+        </li>
+        <li>
+          <Link href="#partners" scroll={true}>
+            {t("header.partners")}
+          </Link>
+        </li>
+        <li>
+          <Link href="#results" scroll={true}>
+            {t("header.results")}
+          </Link>
+        </li>
+        <li>
+          <Link href="#team" scroll={true}>
+            {t("header.team")}
+          </Link>
+        </li>
+      </ul>
+
       <div className="flex items-center gap-3 md:hidden">
         <LanguageSwitcher
           onlyIcon
           className="w-12 !h-12 bg-main-light-gray flex items-center justify-center rounded-full"
         />
       </div>
-    </div>
+    </nav>
   );
 }

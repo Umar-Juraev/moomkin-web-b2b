@@ -50,11 +50,55 @@
     "search": "Qidiruv",
     "favorites": "Sevimlilar"
   },
+  "sections": {
+    "banner": {
+      "title": "Biz bilan savdo imkoniyatlaringizni kengaytiring",
+      "description": "Moomkin biznesingiz uchun chegirmalar va aksiyalarni keng auditoriyaga tez va samarali yetkazadigan raqamli platforma.",
+      "button.partner": "Hamkorlik qilish",
+      "button.platform": "Platformani ko‘rish"
+    },
+    "about": {
+      "name": "Moomkin haqida",
+      "title": "Biznes va foydalanuvchilarni o‘zaro bog‘lovchi innovatsion platforma",
+      "card.chip": "Oson va arzon",
+      "card.chip.desc": "Moomkin insonlar arzon narxdagi mahsulotlarni osongina topishiga yordam beradi",
+      "card.opportunity": "Biznesingizga yangi imkoniyatlar",
+      "card.opportunity.desc": "Moomkin tadbirkorlarga mijozlarini topishi va daromadini oshirishi uchun xizmat qiladi",
+      "card.growth": "Samarali o‘sish yo‘li",
+      "card.growth.desc": "Moomkin samarali kontent, maqsadli trafik va hamkorlik orqali ushbu imkoniyatlarni yaratadi"
+    },
+    "workingProcess": {
+      "name": "Moomkin qanday ishlaydi?",
+      "title": "Savdo va hamkorlik qanday yo‘lga qo‘yiladi?",
+      "description": "Tadbirkorlar bilan shartnoma qilingandan so‘ng, biz ularning mahsulotlari uchun kelishilgan holatda kontent tayyorlab, platformamizda va ijtimoiy tarmoqlarimizda uni insonlarga taqdim etamiz"
+    },
+    "results": {
+      "name": "Natijalar",
+      "title": "Real raqamlar bizning loyihamiz muvaffaqiyatli ishlashini tasdiqlamoqda",
+      "card.followers": "Ijtimoiy tarmoqlardagi obunachilar",
+      "card.webViews": "Saytga tashrif buyuruvchilar",
+      "card.socialView": "Ijtimoiy tarmoqlardagi ko’rishlar",
+      "card.partners": "Hamkorlar",
+      "card.discounts": "Chegirmalar",
+      "card.appDownloads": "Ilova yuklab olishlari"
+    },
+    "team": {
+      "name": "Jamoa",
+      "title": "Professional va ijodkor jamoa birgalikda ekotizimni rivojlantirmoqda",
+      "card.jasurbek":"Jasurbek Hakimov",
+      "card.mirjalol":"Mirjalol Qosimov ",
+      "card.abdulaziz":"Abdulaziz Xamidov",
+      "card.boburbek":"Boburbek Anvarjonov",
+      "card.umar":"Umar Jo'rayev",
+      "card.temur":"Temur Usmonov"
+    },
+    "partners": "Hamkorlar"
+  },
   "header": {
-    "location": "Toshkent shahri",
-    "aboutProgram": "Dastur haqida",
-    "saved": "Saqlanganlar",
-    "settings": "Sozlamalar"
+    "aboutProject": "Loyiha haqida",
+    "partners": "Hamkorlar",
+    "results": "Natijalar",
+    "team": "Jamoa"
   },
   "placeholder": {
     "search": "Qaynoq chegirmalarni qidiring"
@@ -85,6 +129,6 @@
   "search": {
     "title": "Qidirish",
     "moreFigure": "Qidirish uchun kamida '{{count}}' ta belgi kiriting",
-    "noResult":"Ma'lumot topilmadi"
+    "noResult": "Ma'lumot topilmadi"
   }
 }

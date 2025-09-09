@@ -85,6 +85,34 @@
   font-display: swap;
 }
 
+/* Fact-Narrow Bold */
+@font-face {
+  font-family: "Fact-Narrow";
+  src: url("/fonts/Fact-NarrowBold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Fact-Narrow ExtraBold */
+@font-face {
+  font-family: "Fact-Narrow";
+  src: url("/fonts/Fact-NarrowExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Fact-Narrow Medium */
+@font-face {
+  font-family: "Fact-Narrow";
+  src: url("/fonts/Fact-NarrowMedium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 body {
   font-family: "Pretendard";
 }
@@ -100,9 +128,10 @@ body {
 } */
 
 :root {
-  --bg-main-light-gray: #f4f5f7;
+  --bg-main-light-gray: #B4C0CC29;
+  --text-gray:#656E78;
   --dark: #292c30;
-  --red: #E50000;
+  --red: #CC0000;
   --radius: 0.625rem;
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.13 0.028 261.692);
@@ -110,7 +139,7 @@ body {
   --popover-foreground: oklch(0.13 0.028 261.692);
   --primary: oklch(0.21 0.034 264.665);
   --primary-foreground: oklch(0.985 0.002 247.839);
-  --secondary: oklch(0.967 0.003 264.542);
+  --secondary: #E0E0E0;
   --secondary-foreground: oklch(0.21 0.034 264.665);
   --muted: oklch(0.967 0.003 264.542);
   --muted-foreground: oklch(0.551 0.027 264.364);
@@ -140,7 +169,11 @@ body {
 @theme {
   --color-main-light-gray: var(--bg-main-light-gray);
   --color-text-dark: var(--dark);
+  --color-gray: var(--text-gray);
   --color-red: var(--red);
+
+
+  --font-fact: "Fact-Narrow", "Pretendard", sans-serif;
 }
 
 @theme inline {
@@ -208,9 +241,9 @@ body {
   margin-right: auto;
 
   /* Desktop-first: start with largest, override down */
-  max-width: 71.5rem;
-  /* 1144px */
-/* 
+  max-width: 75rem;
+  /* 1200px */
+  /* 
   @media (max-width: 96rem) {
     max-width: 64rem;
     1024px
